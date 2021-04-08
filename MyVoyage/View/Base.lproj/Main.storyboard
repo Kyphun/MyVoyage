@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1a6-nd-hWf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Réglage-->
+        <scene sceneID="vJ3-cC-Vps">
+            <objects>
+                <viewController id="aGR-pI-Gg3" customClass="SettingViewController" customModule="MyVoyage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KJu-uB-pX2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ss4-il-zzz"/>
+                        <color key="backgroundColor" red="0.21999704840000001" green="0.28474700450000001" blue="0.39216941599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Réglage" image="gearshape" catalog="system" id="adh-Iu-ebi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBT-Q0-BB4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="2446"/>
+        </scene>
+        <!--Météo-->
+        <scene sceneID="jsf-jg-PyB">
+            <objects>
+                <viewController id="irf-Ra-gvF" customClass="WeatherViewController" customModule="MyVoyage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="loL-kv-KGH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qJa-rk-Ewc"/>
+                        <color key="backgroundColor" red="0.21999704840000001" green="0.28474700450000001" blue="0.39216941599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Météo" image="cloud.sun" catalog="system" id="MoB-5z-x9R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvU-it-pUJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="1775"/>
+        </scene>
+        <!--Traduction-->
+        <scene sceneID="Ljc-LI-MVa">
+            <objects>
+                <viewController id="73E-z9-H9W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lL3-5C-WcR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4oQ-vD-GjN"/>
+                        <color key="backgroundColor" red="0.21999704840000001" green="0.28474700450000001" blue="0.39216941599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Traduction" image="note.text" catalog="system" id="22L-Qq-9so"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dpE-42-864" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="1082"/>
+        </scene>
+        <!--Taux de change-->
+        <scene sceneID="WBT-QP-3Zi">
+            <objects>
+                <viewController id="Xnk-Ew-qfM" customClass="RateViewController" customModule="MyVoyage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j7J-Se-dWu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fw8-m8-oBw"/>
+                        <color key="backgroundColor" red="0.21999704840000001" green="0.28474700450000001" blue="0.39216941599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Taux de change" image="repeat" catalog="system" id="UOf-Nx-Pac"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VvH-Sh-jrX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="410"/>
+        </scene>
+        <!--Accueil-->
+        <scene sceneID="Ws0-sz-aQa">
+            <objects>
+                <viewController id="GXf-Nb-rKx" customClass="HomeViewController" customModule="MyVoyage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jhe-Sm-w0g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey Kyphun 👋🏻" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYi-ht-2Nj">
+                                <rect key="frame" x="8" y="69" width="398" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="0.94509559870000004" green="0.9570670724" blue="0.93724447489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Q-1d-yLb">
+                                <rect key="frame" x="8" y="157" width="398" height="297"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrQ-t9-oTJ">
+                                <rect key="frame" x="8" y="534" width="398" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                <color key="textColor" red="0.94509559870000004" green="0.9570670724" blue="0.93724447489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jour(s) restant(s) avant le retour en France" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aye-Qs-gqF">
+                                <rect key="frame" x="8" y="594" width="398" height="84"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="35"/>
+                                <color key="textColor" red="0.94509559870000004" green="0.9570670724" blue="0.93724447489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tu es localisé à New York !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgW-fr-acy">
+                                <rect key="frame" x="8" y="484" width="398" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.94509559870000004" green="0.9570670724" blue="0.93724447489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7IU-xf-Eg5"/>
+                        <color key="backgroundColor" red="0.21999704840000001" green="0.28474700450000001" blue="0.39216941599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.19301626089999999" green="0.386911273" blue="0.48236578699999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Z2Q-1d-yLb" firstAttribute="leading" secondItem="7IU-xf-Eg5" secondAttribute="leading" constant="8" id="8tQ-1s-eyj"/>
+                            <constraint firstItem="WYi-ht-2Nj" firstAttribute="top" secondItem="7IU-xf-Eg5" secondAttribute="top" constant="25" id="B1p-Yb-l95"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="trailing" secondItem="Aye-Qs-gqF" secondAttribute="trailing" constant="8" id="D4J-Bd-dYU"/>
+                            <constraint firstItem="Aye-Qs-gqF" firstAttribute="leading" secondItem="7IU-xf-Eg5" secondAttribute="leading" constant="8" id="Ddg-ux-3ej"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="trailing" secondItem="wgW-fr-acy" secondAttribute="trailing" constant="8" id="EwM-5P-qFt"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="trailing" secondItem="NrQ-t9-oTJ" secondAttribute="trailing" constant="8" id="LPO-fV-sbb"/>
+                            <constraint firstItem="Aye-Qs-gqF" firstAttribute="top" secondItem="NrQ-t9-oTJ" secondAttribute="bottom" constant="12" id="Oho-Lc-Dqn"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="bottom" secondItem="Aye-Qs-gqF" secondAttribute="bottom" constant="135" id="P9O-L6-vmI"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="trailing" secondItem="WYi-ht-2Nj" secondAttribute="trailing" constant="8" id="Vhz-oH-ivi"/>
+                            <constraint firstItem="NrQ-t9-oTJ" firstAttribute="leading" secondItem="7IU-xf-Eg5" secondAttribute="leading" constant="8" id="ZDE-V7-i1d"/>
+                            <constraint firstItem="7IU-xf-Eg5" firstAttribute="trailing" secondItem="Z2Q-1d-yLb" secondAttribute="trailing" constant="8" id="f9H-eV-5QQ"/>
+                            <constraint firstItem="Z2Q-1d-yLb" firstAttribute="top" secondItem="WYi-ht-2Nj" secondAttribute="bottom" constant="40" id="fdx-f7-VS2"/>
+                            <constraint firstItem="NrQ-t9-oTJ" firstAttribute="top" secondItem="wgW-fr-acy" secondAttribute="bottom" constant="20" id="gJy-my-m6s"/>
+                            <constraint firstItem="wgW-fr-acy" firstAttribute="top" secondItem="Z2Q-1d-yLb" secondAttribute="bottom" constant="30" id="lSR-Fw-5Zb"/>
+                            <constraint firstItem="wgW-fr-acy" firstAttribute="leading" secondItem="7IU-xf-Eg5" secondAttribute="leading" constant="8" id="olU-zs-8Q8"/>
+                            <constraint firstItem="WYi-ht-2Nj" firstAttribute="leading" secondItem="7IU-xf-Eg5" secondAttribute="leading" constant="8" id="tsG-Pc-ycV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Accueil" image="house" catalog="system" id="Azc-Tn-WtN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78e-kw-c9a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988.40579710144937" y="-232.36607142857142"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MYL-Nz-gla">
+            <objects>
+                <tabBarController id="1a6-nd-hWf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M5C-f2-OM8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GXf-Nb-rKx" kind="relationship" relationship="viewControllers" id="umf-OW-K1l"/>
+                        <segue destination="Xnk-Ew-qfM" kind="relationship" relationship="viewControllers" id="zf1-Ea-ABL"/>
+                        <segue destination="73E-z9-H9W" kind="relationship" relationship="viewControllers" id="sYF-sW-Fem"/>
+                        <segue destination="irf-Ra-gvF" kind="relationship" relationship="viewControllers" id="lzc-Wk-oS3"/>
+                        <segue destination="aGR-pI-Gg3" kind="relationship" relationship="viewControllers" id="Aum-2I-5Ey"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U5k-7z-KZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3012" y="1304"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.sun" catalog="system" width="128" height="93"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="note.text" catalog="system" width="128" height="106"/>
+        <image name="repeat" catalog="system" width="128" height="99"/>
+    </resources>
+</document>
